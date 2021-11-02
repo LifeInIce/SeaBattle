@@ -1,0 +1,24 @@
+#pragma once
+int chekFinish(char**& obj);
+void setColor(unsigned fg, unsigned bg);
+void randShipAll(char**& obj1, char**& obj2);
+void makeMap(char**& obj1, char**& obj2);
+void showMap(char**& obj1, char**& obj2);
+void shootPlayer(char**& obj1, char**& obj2);
+void shootBot(char**& obj1, char**& obj2);
+void autoOneDeck(char**& obj);
+void autoTwoDeck(char**& obj);
+void autoTreeDeck(char**& obj);
+void autoFourDeck(char**& obj);
+void KillAll(char**& obj);
+void manualShip(char**& obj1, char**& obj2);
+void manualFourDeck(char**& obj1, char**& obj2);
+void manualTreeDeck(char**& obj1, char**& obj2);
+void manualTwoDeck(char**& obj1, char**& obj2);
+void manualOneDeck(char**& obj1, char**& obj2);
+void fight(char**& obj1, char**& obj2);
+void logo();
+void screensaverPlayer();
+void screensaverBot();
+void screensaverBye();
+void menu(char**& obj1, char**& obj2);
